@@ -1,5 +1,5 @@
 {
-  "name": "hyparquet-perf",
+  "name": "hightable-perf",
   "author": "Hyperparam",
   "homepage": "https://hyperparam.app",
   "license": "MIT",
@@ -10,9 +10,8 @@
   },
   "type": "module",
   "devDependencies": {
-    "@types/node": "24.10.1",
-    "http-server": "14.1.1",
-    "hyparquet": "1.21.0",
-    "hyparquet-compressors": "1.1.1"
+    "@playwright/test": "1.58.2",
+    "@types/node": "25.4.0",
+    "http-server": "14.1.1"
   }
 }

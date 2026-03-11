@@ -1,62 +1,35 @@
-import { spawn } from 'child_process'
 import { promises as fs } from 'fs'
-
-function streamCommand(command, args = [], printOutput = true) {
-  return new Promise((resolve, reject) => {
-    // Set { shell: true } so we can pass in command strings (like npm install ...) easily
-    const child = spawn(command, args, { shell: true })
-
-    // Stream the stdout directly to this process's stdout
-    if (printOutput) {
-      child.stdout.on('data', (data) => {
-        process.stdout.write(data)
-      })
-    }
-
-    // Stream the stderr directly to this process's stderr
-    child.stderr.on('data', (data) => {
-      process.stderr.write(data)
-    })
-
-    // If there's an error spawning the process, reject immediately
-    child.on('error', (error) => {
-      reject(error)
-    })
-
-    // When the command completes, check the exit code
-    child.on('close', (code) => {
-      if (code === 0) {
-        resolve()
-      } else {
-        reject(new Error(`Command "${command} ${args.join(' ')}" failed with exit code ${code}`))
-      }
-    })
-  })
-}
+import { appDir, streamCommand } from './utils.js'
 
 async function run() {
-  // Fetch the hyparquet versions from npm
-  const versionsData = await fetch('https://registry.npmjs.org/hyparquet')
+  // Fetch the hightable versions from npm
+  const versionsData = await fetch('https://registry.npmjs.org/hightable')
     .then(res => res.json())
 
-  // Extract the version numbers and reverse() for the newest first
-  const versions = Object.keys(versionsData.versions).reverse()
-    .filter(v => v !== '0.7.3') // 0.7.3 sucked
+  const versions = Object.keys(versionsData.versions).reverse().map(version => {
+    const [major, minor, patch] = version.split('.')
+    return {
+      version,
+      major: parseInt(major),
+      minor: parseInt(minor),
+      patch: parseInt(patch)
+    }
+  }).filter(({ minor }) => minor >= 20) // Only test versions with minor >= 20 for now.
 
   // Remove perf.jsonl
   await fs.unlink('perf.jsonl').catch(() => {})
 
-  for (const version of versions) {
-    console.log(`\nRunning tests for hyparquet@${version}`)
+  for (const { version } of versions) {
+    console.log(`\nRunning tests for hightable@${version}`)
 
     // Install the specified version (streams stdout/stderr)
-    await streamCommand('npm', ['install', `hyparquet@${version}`], false)
+    await streamCommand('npm', ['install', '-E', `hightable@${version}`], { cwd: appDir })
 
     // Run your test script (streams stdout/stderr)
     try {
-      await streamCommand('node', ['src/index.js'])
+      await streamCommand('node', ['src/index.js'], { printOutput: true })
     } catch (err) {
-      console.error(`Error running test for hyparquet@${version}:`, err)
+      console.error(`Error running test for hightable@${version}:`, err)
     }
   }
 }

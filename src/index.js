@@ -1,88 +1,57 @@
-import { createWriteStream, promises as fs } from 'fs'
-import { asyncBufferFromFile } from './asyncBuffer.js'
-import { pipeline } from 'stream/promises'
-import packageJson from '../package.json' with { type: 'json' }
-import { tests } from './tests.js'
+import { promises as fs } from 'fs'
+import { appDir, streamCommand , median} from './utils.js'
+import packageJson from '../app/package.json' with { type: 'json' }
 
-const url = 'https://s3.hyperparam.app/tpch-lineitem-v2.parquet'
-const filename = 'data/tpch-lineitem-v2.parquet'
-await getTestFile()
-const file = await asyncBufferFromFile(filename)
-const iterations = 1
+const version = packageJson.dependencies.hightable
 
-const version = packageJson.devDependencies.hyparquet
+async function run() {
+    // Build the app (streams stdout/stderr)
+    await streamCommand('npm', ['run', 'build'], { cwd: appDir })
 
-async function runTests() {
-  for (const { name, runTest } of tests) {
-    // pre-1.7.0 ignored the filter parameter
-    if (name === 'query-with-filter') {
-      // if it looks like a version string, parse it "^1.7.0"
-      if (/^\^(\d+)\.(\d+)\.(\d+)$/.test(version)) {
-        const parts = version.slice(1).split('.')
-        const major = Number(parts[0])
-        const minor = Number(parts[1])
-        if (major < 1) continue
-        if (major === 1 && minor <= 7) continue
-      }
+    // Run your test script (streams stdout/stderr)
+    try {
+        await streamCommand('npx', ['playwright', 'test'], { printOutput: true })
+
+        // transform test-results.json and append to perf.jsonl
+        const testResults = JSON.parse(await fs.readFile('test-results.json', 'utf-8'))
+        for (const suite of testResults.suites) {
+            for (const spec of suite.specs) {
+                const name = spec.title
+                const tests = spec.tests
+                if (tests.length !== 1) {
+                    throw new Error(`Expected exactly 1 test in spec "${name}", but found ${tests.length}`)
+                }
+                const test = tests[0]
+                const results = test.results
+                if (results.length !== 1) {
+                    throw new Error(`Expected exactly 1 result in test "${name}", but found ${results.length}`)
+                }
+                const result = results[0]
+                if (result.status !== 'passed') {
+                    throw new Error(`Test "${name}" did not pass, status: ${result.status}`)
+                }
+                const steps = result.steps
+                if (steps.length === 0) {
+                    throw new Error(`No steps found in result for test "${name}"`)
+                }
+                const ms = median(steps.map(step => Number(step.duration)))
+                const str = JSON.stringify({
+                    name,
+                    version,
+                    ms,
+                    date: new Date().toISOString(),
+                })
+                console.log(str)
+                // Also append to perf.jsonl
+                await fs.appendFile('perf.jsonl', str + '\n')
+            }
+        }
+    } catch (err) {
+        console.error(`Error running test for hightable@${version}:`, err)
     }
-
-    for (let i = 0; i < iterations; i++) {
-      const metered = meteredAsyncBuffer(file)
-      const start = performance.now()
-
-      // Run tests
-      try {
-        await runTest(metered)
-
-        const ms = performance.now() - start
-        let stat = await fs.stat(filename).catch(() => undefined)
-  
-        const str = JSON.stringify({
-          name,
-          version,
-          ms,
-          readBytes: metered.readBytes,
-          reads: metered.reads,
-          fileSize: stat.size,
-          date: new Date().toISOString(),
-        })
-        console.log(str)
-        // Also append to perf.jsonl
-        await fs.appendFile('perf.jsonl', str + '\n')
-      } catch (err) {
-        console.error(`Error running test ${name}: ${err}`)
-      }
-    }
-  }
 }
 
-function meteredAsyncBuffer(file) {
-  return {
-    readBytes: 0,
-    reads: 0,
-    byteLength: file.byteLength,
-    slice(start, end = file.byteLength) {
-      this.readBytes += end - start
-      this.reads++
-      return file.slice(start, end)
-    },
-  }
-}
-
-async function getTestFile() {
-  // download test parquet file if needed
-  let stat = await fs.stat(filename).catch(() => undefined)
-  if (!stat) {
-    // Ensure data directory exists
-    await fs.mkdir('data', { recursive: true })
-    console.log('downloading ' + url)
-    const res = await fetch(url)
-    if (!res.ok) throw new Error(res.statusText)
-    // write to file async
-    await pipeline(res.body, createWriteStream(filename))
-    stat = await fs.stat(filename).catch(() => undefined)
-    console.log('downloaded example.parquet', stat.size)
-  }
-}
-
-runTests()
+run().catch(err => {
+  console.error('Fatal error during installation/testing:', err)
+  process.exit(1)
+})
