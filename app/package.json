@@ -9,11 +9,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run --dir test",
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hightable": "file:../../../../../../tmp/hightable-3RO9oH/package-2025-11-29T09_40_36Z-0.23.0-dd7107f.tgz",
+    "hightable": "0.26.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-router": "7.13.1"
