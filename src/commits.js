@@ -64,11 +64,11 @@ async function run() {
       await fs.rename(join(checkoutDir, packageFile), join(checkoutDir, newPackageFile))
       const packagePath = join(checkoutDir, newPackageFile)
 
-      // Install the built package in the app directory
-      await streamCommand('npm', ['install', packagePath], { cwd: appDir })
-      
       // Install all the packages
       await streamCommand('npm', ['install'], { cwd: appDir })
+
+      // Install the built package in the app directory
+      await streamCommand('npm', ['install', '--no-save', '--no-package-lock', packagePath], { cwd: appDir })
 
       console.log(`\n  run tests`)
       try {
