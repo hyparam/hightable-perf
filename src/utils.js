@@ -6,19 +6,12 @@ export const baseURL = 'http://localhost:' + port
 
 export function streamCommand(command, args = [], { printOutput = false, cwd = undefined} = {}) {
   return new Promise((resolve, reject) => {
-    const child = spawn(command, args, { cwd })
-
-    // Stream the stdout directly to this process's stdout
-    if (printOutput) {
-      child.stdout.on('data', (data) => {
-        process.stdout.write(data)
-      })
-      
-      // Stream the stderr directly to this process's stderr
-      child.stderr.on('data', (data) => {
-        process.stderr.write(data)
-      })
-    }
+    const child = spawn(command, args, {
+      cwd,
+      stdio: printOutput ?
+        ['ignore', 'pipe', 'pipe'] :
+        'ignore'
+    })
 
     // If there's an error spawning the process, reject immediately
     child.on('error', (error) => {
