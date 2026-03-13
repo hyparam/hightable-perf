@@ -13,7 +13,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "hightable": "0.26.4",
+    "hightable": "file:../../../../../../tmp/hightable-3RO9oH/package-2025-11-29T09_40_36Z-0.23.0-dd7107f.tgz",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-router": "7.13.1"
@@ -29,7 +29,6 @@
     "globals": "17.4.0",
     "typescript": "5.9.3",
     "typescript-eslint": "8.57.0",
-    "vite": "7.3.1",
-    "vitest": "4.0.18"
+    "vite": "7.3.1"
   }
 }

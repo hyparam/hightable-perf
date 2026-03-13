@@ -1,3 +1,7 @@
+function getVersionKey({ version, commit, commitDate }) {
+  return commit ? `${version} (${commit.slice(0, 7)}, ${commitDate})` : version
+}
+
 // Fetch the perf.jsonl file in the same directory
 fetch('./perf.jsonl')
   .then((response) => response.text())
@@ -7,19 +11,24 @@ fetch('./perf.jsonl')
     const rawData = lines.map(line => JSON.parse(line))
     
     // Extract unique versions
-    const versions = [...new Set(rawData.map(d => d.version))].reverse()
-
+    const versions = [...new Set(rawData.map(d => JSON.stringify({ commitDate: d.commitDate, version: d.version, commit: d.commit })))]
+      .map(str => JSON.parse(str))
+      .sort((a, b) => new Date(a.commitDate) - new Date(b.commitDate))
+      .map(getVersionKey)
+    console.log('Versions found in perf.jsonl:', versions)
+    
     // Extract unique test names
     const testNames = [...new Set(rawData.map(d => d.name))]
 
     // Create a lookup: { name: { version: ms } }
     const lookup = {}
     rawData.forEach(item => {
-      const { name, version, ms } = item
+      const { name, version, commit, commitDate, ms } = item
+      const versionKey = getVersionKey({ version, commit, commitDate })
       if (!lookup[name]) {
         lookup[name] = {}
       }
-      lookup[name][version] = ms
+      lookup[name][versionKey] = ms
     })
 
     // Deterministic color function for the "rainbow" scale

@@ -13,12 +13,12 @@ export function streamCommand(command, args = [], { printOutput = false, cwd = u
       child.stdout.on('data', (data) => {
         process.stdout.write(data)
       })
+      
+      // Stream the stderr directly to this process's stderr
+      child.stderr.on('data', (data) => {
+        process.stderr.write(data)
+      })
     }
-
-    // Stream the stderr directly to this process's stderr
-    child.stderr.on('data', (data) => {
-      process.stderr.write(data)
-    })
 
     // If there's an error spawning the process, reject immediately
     child.on('error', (error) => {
@@ -41,3 +41,15 @@ export function median(values) {
   const sortedValues = [...values].sort((a, b) => a - b);
   return values.length % 2 !== 0 ? sortedValues[middle] : (sortedValues[middle - 1] + sortedValues[middle]) / 2;
 };
+
+export function getDateVersionAndCommit(dependency) {
+  if (dependency.startsWith('file:')) {
+    const match = dependency.match(/file:.*package-(.*)-(\d+\.\d+\.\d+)-([a-f0-9]+)\.tgz/)
+    if (!match) {
+      throw new Error(`Invalid file dependency format: ${dependency}`)
+    }
+    return { date: match[1].replace(/_/g, ':'), version: match[2], commit: match[3] }
+  } else {
+    return { version: dependency }
+  }
+}

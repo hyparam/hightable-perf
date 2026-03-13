@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs'
-import { appDir, streamCommand , median} from './utils.js'
+import { appDir, getDateVersionAndCommit, streamCommand , median} from './utils.js'
 import packageJson from '../app/package.json' with { type: 'json' }
 
-const version = packageJson.dependencies.hightable
+const {date, version, commit} = getDateVersionAndCommit(packageJson.dependencies.hightable)
 
 async function run() {
     // Build the app (streams stdout/stderr)
@@ -38,6 +38,8 @@ async function run() {
                 const str = JSON.stringify({
                     name,
                     version,
+                    commit,
+                    commitDate: date,
                     ms,
                     date: new Date().toISOString(),
                 })
@@ -47,7 +49,7 @@ async function run() {
             }
         }
     } catch (err) {
-        console.error(`Error running test for hightable@${version}:`, err)
+        console.error(`Error running test for hightable@${commit ?? version}:`, err)
     }
 }
 
