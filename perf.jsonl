@@ -1,88 +1,400 @@
-{"name":"load first cell","version":"0.26.4","ms":117.5,"date":"2026-03-11T15:01:50.448Z"}
-{"name":"scroll by one row","version":"0.26.4","ms":44.5,"date":"2026-03-11T15:01:50.451Z"}
-{"name":"scroll by 10 rows","version":"0.26.4","ms":63,"date":"2026-03-11T15:01:50.452Z"}
-{"name":"sort","version":"0.26.4","ms":79,"date":"2026-03-11T15:01:50.452Z"}
-{"name":"load first cell","version":"0.26.3","ms":120.5,"date":"2026-03-11T15:02:03.353Z"}
-{"name":"scroll by one row","version":"0.26.3","ms":46,"date":"2026-03-11T15:02:03.354Z"}
-{"name":"scroll by 10 rows","version":"0.26.3","ms":64.5,"date":"2026-03-11T15:02:03.354Z"}
-{"name":"sort","version":"0.26.3","ms":79.5,"date":"2026-03-11T15:02:03.355Z"}
-{"name":"load first cell","version":"0.26.2","ms":115.5,"date":"2026-03-11T15:02:16.568Z"}
-{"name":"scroll by one row","version":"0.26.2","ms":43,"date":"2026-03-11T15:02:16.569Z"}
-{"name":"scroll by 10 rows","version":"0.26.2","ms":66,"date":"2026-03-11T15:02:16.569Z"}
-{"name":"sort","version":"0.26.2","ms":82,"date":"2026-03-11T15:02:16.570Z"}
-{"name":"load first cell","version":"0.26.1","ms":118,"date":"2026-03-11T15:02:29.496Z"}
-{"name":"scroll by one row","version":"0.26.1","ms":46,"date":"2026-03-11T15:02:29.500Z"}
-{"name":"scroll by 10 rows","version":"0.26.1","ms":65.5,"date":"2026-03-11T15:02:29.501Z"}
-{"name":"sort","version":"0.26.1","ms":79.5,"date":"2026-03-11T15:02:29.502Z"}
-{"name":"load first cell","version":"0.26.0","ms":84,"date":"2026-03-11T15:02:40.952Z"}
-{"name":"scroll by one row","version":"0.26.0","ms":36.5,"date":"2026-03-11T15:02:40.954Z"}
-{"name":"scroll by 10 rows","version":"0.26.0","ms":46.5,"date":"2026-03-11T15:02:40.954Z"}
-{"name":"sort","version":"0.26.0","ms":80,"date":"2026-03-11T15:02:40.955Z"}
-{"name":"load first cell","version":"0.25.3","ms":84,"date":"2026-03-11T15:02:52.461Z"}
-{"name":"scroll by one row","version":"0.25.3","ms":35.5,"date":"2026-03-11T15:02:52.462Z"}
-{"name":"scroll by 10 rows","version":"0.25.3","ms":47,"date":"2026-03-11T15:02:52.462Z"}
-{"name":"sort","version":"0.25.3","ms":69,"date":"2026-03-11T15:02:52.463Z"}
-{"name":"load first cell","version":"0.25.2","ms":81.5,"date":"2026-03-11T15:03:04.035Z"}
-{"name":"scroll by one row","version":"0.25.2","ms":35.5,"date":"2026-03-11T15:03:04.036Z"}
-{"name":"scroll by 10 rows","version":"0.25.2","ms":47.5,"date":"2026-03-11T15:03:04.036Z"}
-{"name":"sort","version":"0.25.2","ms":77,"date":"2026-03-11T15:03:04.036Z"}
-{"name":"load first cell","version":"0.25.1","ms":87,"date":"2026-03-11T15:03:15.866Z"}
-{"name":"scroll by one row","version":"0.25.1","ms":38.5,"date":"2026-03-11T15:03:15.868Z"}
-{"name":"scroll by 10 rows","version":"0.25.1","ms":51,"date":"2026-03-11T15:03:15.869Z"}
-{"name":"sort","version":"0.25.1","ms":80.5,"date":"2026-03-11T15:03:15.869Z"}
-{"name":"load first cell","version":"0.25.0","ms":64.5,"date":"2026-03-11T15:03:27.167Z"}
-{"name":"scroll by one row","version":"0.25.0","ms":33.5,"date":"2026-03-11T15:03:27.170Z"}
-{"name":"scroll by 10 rows","version":"0.25.0","ms":46.5,"date":"2026-03-11T15:03:27.171Z"}
-{"name":"sort","version":"0.25.0","ms":76,"date":"2026-03-11T15:03:27.172Z"}
-{"name":"load first cell","version":"0.24.1","ms":69,"date":"2026-03-11T15:03:38.389Z"}
-{"name":"scroll by one row","version":"0.24.1","ms":35,"date":"2026-03-11T15:03:38.390Z"}
-{"name":"scroll by 10 rows","version":"0.24.1","ms":48,"date":"2026-03-11T15:03:38.391Z"}
-{"name":"sort","version":"0.24.1","ms":52.5,"date":"2026-03-11T15:03:38.391Z"}
-{"name":"load first cell","version":"0.24.0","ms":67.5,"date":"2026-03-11T15:03:49.551Z"}
-{"name":"scroll by one row","version":"0.24.0","ms":34.5,"date":"2026-03-11T15:03:49.554Z"}
-{"name":"scroll by 10 rows","version":"0.24.0","ms":50.5,"date":"2026-03-11T15:03:49.555Z"}
-{"name":"sort","version":"0.24.0","ms":52,"date":"2026-03-11T15:03:49.556Z"}
-{"name":"load first cell","version":"0.23.0","ms":63,"date":"2026-03-11T15:04:00.730Z"}
-{"name":"scroll by one row","version":"0.23.0","ms":33.5,"date":"2026-03-11T15:04:00.731Z"}
-{"name":"scroll by 10 rows","version":"0.23.0","ms":47,"date":"2026-03-11T15:04:00.732Z"}
-{"name":"sort","version":"0.23.0","ms":79,"date":"2026-03-11T15:04:00.732Z"}
-{"name":"load first cell","version":"0.22.2","ms":64,"date":"2026-03-11T15:04:11.886Z"}
-{"name":"scroll by one row","version":"0.22.2","ms":33.5,"date":"2026-03-11T15:04:11.888Z"}
-{"name":"scroll by 10 rows","version":"0.22.2","ms":49,"date":"2026-03-11T15:04:11.889Z"}
-{"name":"sort","version":"0.22.2","ms":55,"date":"2026-03-11T15:04:11.890Z"}
-{"name":"load first cell","version":"0.22.1","ms":67,"date":"2026-03-11T15:04:23.166Z"}
-{"name":"scroll by one row","version":"0.22.1","ms":33.5,"date":"2026-03-11T15:04:23.170Z"}
-{"name":"scroll by 10 rows","version":"0.22.1","ms":46,"date":"2026-03-11T15:04:23.171Z"}
-{"name":"sort","version":"0.22.1","ms":54,"date":"2026-03-11T15:04:23.172Z"}
-{"name":"load first cell","version":"0.22.0","ms":65.5,"date":"2026-03-11T15:04:34.326Z"}
-{"name":"scroll by one row","version":"0.22.0","ms":33.5,"date":"2026-03-11T15:04:34.328Z"}
-{"name":"scroll by 10 rows","version":"0.22.0","ms":48,"date":"2026-03-11T15:04:34.329Z"}
-{"name":"sort","version":"0.22.0","ms":51,"date":"2026-03-11T15:04:34.329Z"}
-{"name":"load first cell","version":"0.21.1","ms":66,"date":"2026-03-11T15:04:45.393Z"}
-{"name":"scroll by one row","version":"0.21.1","ms":33.5,"date":"2026-03-11T15:04:45.394Z"}
-{"name":"scroll by 10 rows","version":"0.21.1","ms":48,"date":"2026-03-11T15:04:45.395Z"}
-{"name":"sort","version":"0.21.1","ms":51.5,"date":"2026-03-11T15:04:45.395Z"}
-{"name":"load first cell","version":"0.21.0","ms":66.5,"date":"2026-03-11T15:04:56.825Z"}
-{"name":"scroll by one row","version":"0.21.0","ms":33.5,"date":"2026-03-11T15:04:56.827Z"}
-{"name":"scroll by 10 rows","version":"0.21.0","ms":48.5,"date":"2026-03-11T15:04:56.828Z"}
-{"name":"sort","version":"0.21.0","ms":76,"date":"2026-03-11T15:04:56.829Z"}
-{"name":"load first cell","version":"0.20.4","ms":65.5,"date":"2026-03-11T15:05:08.022Z"}
-{"name":"scroll by one row","version":"0.20.4","ms":33.5,"date":"2026-03-11T15:05:08.023Z"}
-{"name":"scroll by 10 rows","version":"0.20.4","ms":48,"date":"2026-03-11T15:05:08.023Z"}
-{"name":"sort","version":"0.20.4","ms":53,"date":"2026-03-11T15:05:08.023Z"}
-{"name":"load first cell","version":"0.20.3","ms":81,"date":"2026-03-11T15:05:19.783Z"}
-{"name":"scroll by one row","version":"0.20.3","ms":34,"date":"2026-03-11T15:05:19.785Z"}
-{"name":"scroll by 10 rows","version":"0.20.3","ms":48.5,"date":"2026-03-11T15:05:19.786Z"}
-{"name":"sort","version":"0.20.3","ms":51.5,"date":"2026-03-11T15:05:19.786Z"}
-{"name":"load first cell","version":"0.20.2","ms":82.5,"date":"2026-03-11T15:05:31.106Z"}
-{"name":"scroll by one row","version":"0.20.2","ms":34,"date":"2026-03-11T15:05:31.107Z"}
-{"name":"scroll by 10 rows","version":"0.20.2","ms":49.5,"date":"2026-03-11T15:05:31.108Z"}
-{"name":"sort","version":"0.20.2","ms":51,"date":"2026-03-11T15:05:31.109Z"}
-{"name":"load first cell","version":"0.20.1","ms":64,"date":"2026-03-11T15:05:42.371Z"}
-{"name":"scroll by one row","version":"0.20.1","ms":33,"date":"2026-03-11T15:05:42.373Z"}
-{"name":"scroll by 10 rows","version":"0.20.1","ms":45.5,"date":"2026-03-11T15:05:42.373Z"}
-{"name":"sort","version":"0.20.1","ms":54,"date":"2026-03-11T15:05:42.374Z"}
-{"name":"load first cell","version":"0.20.0","ms":64.5,"date":"2026-03-11T15:05:54.040Z"}
-{"name":"scroll by one row","version":"0.20.0","ms":36,"date":"2026-03-11T15:05:54.042Z"}
-{"name":"scroll by 10 rows","version":"0.20.0","ms":47,"date":"2026-03-11T15:05:54.042Z"}
-{"name":"sort","version":"0.20.0","ms":52.5,"date":"2026-03-11T15:05:54.043Z"}
+{"name": "load first cell","version": "0.26.4","commit": "0989abd","commitDate": "2026-03-10T09:32:00Z","ms": 119.5,"date": "2026-03-13T13:38:04.494Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "0989abd","commitDate": "2026-03-10T09:32:00Z","ms": 44.5,"date": "2026-03-13T13:38:04.497Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "0989abd","commitDate": "2026-03-10T09:32:00Z","ms": 65.5,"date": "2026-03-13T13:38:04.498Z"}
+{"name": "sort","version": "0.26.4","commit": "0989abd","commitDate": "2026-03-10T09:32:00Z","ms": 63,"date": "2026-03-13T13:38:04.499Z"}
+{"name": "load first cell","version": "0.26.4","commit": "08a65fd","commitDate": "2026-03-09T14:49:17Z","ms": 122,"date": "2026-03-13T13:38:20.965Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "08a65fd","commitDate": "2026-03-09T14:49:17Z","ms": 44,"date": "2026-03-13T13:38:20.968Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "08a65fd","commitDate": "2026-03-09T14:49:17Z","ms": 66,"date": "2026-03-13T13:38:20.969Z"}
+{"name": "sort","version": "0.26.4","commit": "08a65fd","commitDate": "2026-03-09T14:49:17Z","ms": 76.5,"date": "2026-03-13T13:38:20.970Z"}
+{"name": "load first cell","version": "0.26.4","commit": "30ea3f6","commitDate": "2026-03-06T21:32:33Z","ms": 120.5,"date": "2026-03-13T13:38:37.364Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "30ea3f6","commitDate": "2026-03-06T21:32:33Z","ms": 43.5,"date": "2026-03-13T13:38:37.366Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "30ea3f6","commitDate": "2026-03-06T21:32:33Z","ms": 66.5,"date": "2026-03-13T13:38:37.367Z"}
+{"name": "sort","version": "0.26.4","commit": "30ea3f6","commitDate": "2026-03-06T21:32:33Z","ms": 80,"date": "2026-03-13T13:38:37.367Z"}
+{"name": "load first cell","version": "0.26.4","commit": "ad925c4","commitDate": "2026-03-06T17:57:09Z","ms": 123.5,"date": "2026-03-13T13:38:53.878Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "ad925c4","commitDate": "2026-03-06T17:57:09Z","ms": 44,"date": "2026-03-13T13:38:53.879Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "ad925c4","commitDate": "2026-03-06T17:57:09Z","ms": 66,"date": "2026-03-13T13:38:53.880Z"}
+{"name": "sort","version": "0.26.4","commit": "ad925c4","commitDate": "2026-03-06T17:57:09Z","ms": 77,"date": "2026-03-13T13:38:53.880Z"}
+{"name": "load first cell","version": "0.26.4","commit": "32f1635","commitDate": "2026-03-06T16:27:12Z","ms": 120.5,"date": "2026-03-13T13:39:11.196Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "32f1635","commitDate": "2026-03-06T16:27:12Z","ms": 46,"date": "2026-03-13T13:39:11.199Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "32f1635","commitDate": "2026-03-06T16:27:12Z","ms": 64.5,"date": "2026-03-13T13:39:11.199Z"}
+{"name": "sort","version": "0.26.4","commit": "32f1635","commitDate": "2026-03-06T16:27:12Z","ms": 80,"date": "2026-03-13T13:39:11.200Z"}
+{"name": "load first cell","version": "0.26.4","commit": "89d5fb9","commitDate": "2026-03-06T09:12:20Z","ms": 120.5,"date": "2026-03-13T13:39:28.492Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "89d5fb9","commitDate": "2026-03-06T09:12:20Z","ms": 43.5,"date": "2026-03-13T13:39:28.493Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "89d5fb9","commitDate": "2026-03-06T09:12:20Z","ms": 65,"date": "2026-03-13T13:39:28.493Z"}
+{"name": "sort","version": "0.26.4","commit": "89d5fb9","commitDate": "2026-03-06T09:12:20Z","ms": 77.5,"date": "2026-03-13T13:39:28.494Z"}
+{"name": "load first cell","version": "0.26.4","commit": "140ac1e","commitDate": "2026-03-05T22:08:09Z","ms": 124,"date": "2026-03-13T13:39:45.708Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "140ac1e","commitDate": "2026-03-05T22:08:09Z","ms": 45,"date": "2026-03-13T13:39:45.710Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "140ac1e","commitDate": "2026-03-05T22:08:09Z","ms": 66,"date": "2026-03-13T13:39:45.711Z"}
+{"name": "sort","version": "0.26.4","commit": "140ac1e","commitDate": "2026-03-05T22:08:09Z","ms": 79.5,"date": "2026-03-13T13:39:45.712Z"}
+{"name": "load first cell","version": "0.26.4","commit": "1bf90f9","commitDate": "2026-03-05T17:16:46Z","ms": 121.5,"date": "2026-03-13T13:40:02.925Z"}
+{"name": "scroll by one row","version": "0.26.4","commit": "1bf90f9","commitDate": "2026-03-05T17:16:46Z","ms": 43.5,"date": "2026-03-13T13:40:02.927Z"}
+{"name": "scroll by 10 rows","version": "0.26.4","commit": "1bf90f9","commitDate": "2026-03-05T17:16:46Z","ms": 66.5,"date": "2026-03-13T13:40:02.927Z"}
+{"name": "sort","version": "0.26.4","commit": "1bf90f9","commitDate": "2026-03-05T17:16:46Z","ms": 78,"date": "2026-03-13T13:40:02.928Z"}
+{"name": "load first cell","version": "0.26.3","commit": "ba5b159","commitDate": "2026-03-05T16:59:21Z","ms": 120,"date": "2026-03-13T13:40:20.066Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "ba5b159","commitDate": "2026-03-05T16:59:21Z","ms": 46.5,"date": "2026-03-13T13:40:20.068Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "ba5b159","commitDate": "2026-03-05T16:59:21Z","ms": 66,"date": "2026-03-13T13:40:20.069Z"}
+{"name": "sort","version": "0.26.3","commit": "ba5b159","commitDate": "2026-03-05T16:59:21Z","ms": 78,"date": "2026-03-13T13:40:20.070Z"}
+{"name": "load first cell","version": "0.26.3","commit": "102d46c","commitDate": "2026-03-05T09:46:31Z","ms": 120.5,"date": "2026-03-13T13:40:40.016Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "102d46c","commitDate": "2026-03-05T09:46:31Z","ms": 46,"date": "2026-03-13T13:40:40.018Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "102d46c","commitDate": "2026-03-05T09:46:31Z","ms": 67,"date": "2026-03-13T13:40:40.019Z"}
+{"name": "sort","version": "0.26.3","commit": "102d46c","commitDate": "2026-03-05T09:46:31Z","ms": 81.5,"date": "2026-03-13T13:40:40.019Z"}
+{"name": "load first cell","version": "0.26.3","commit": "490c6aa","commitDate": "2026-03-05T09:41:28Z","ms": 119.5,"date": "2026-03-13T13:40:57.091Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "490c6aa","commitDate": "2026-03-05T09:41:28Z","ms": 44.5,"date": "2026-03-13T13:40:57.094Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "490c6aa","commitDate": "2026-03-05T09:41:28Z","ms": 66,"date": "2026-03-13T13:40:57.096Z"}
+{"name": "sort","version": "0.26.3","commit": "490c6aa","commitDate": "2026-03-05T09:41:28Z","ms": 79,"date": "2026-03-13T13:40:57.096Z"}
+{"name": "load first cell","version": "0.26.3","commit": "9c2a8f4","commitDate": "2026-03-04T12:21:10Z","ms": 121,"date": "2026-03-13T13:41:14.432Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "9c2a8f4","commitDate": "2026-03-04T12:21:10Z","ms": 42.5,"date": "2026-03-13T13:41:14.435Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "9c2a8f4","commitDate": "2026-03-04T12:21:10Z","ms": 66,"date": "2026-03-13T13:41:14.437Z"}
+{"name": "sort","version": "0.26.3","commit": "9c2a8f4","commitDate": "2026-03-04T12:21:10Z","ms": 66.5,"date": "2026-03-13T13:41:14.438Z"}
+{"name": "load first cell","version": "0.26.3","commit": "4c45cf9","commitDate": "2026-03-04T10:47:51Z","ms": 120.5,"date": "2026-03-13T13:41:31.718Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "4c45cf9","commitDate": "2026-03-04T10:47:51Z","ms": 43.5,"date": "2026-03-13T13:41:31.721Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "4c45cf9","commitDate": "2026-03-04T10:47:51Z","ms": 64,"date": "2026-03-13T13:41:31.721Z"}
+{"name": "sort","version": "0.26.3","commit": "4c45cf9","commitDate": "2026-03-04T10:47:51Z","ms": 80,"date": "2026-03-13T13:41:31.722Z"}
+{"name": "load first cell","version": "0.26.3","commit": "d6e2edd","commitDate": "2026-03-04T09:50:43Z","ms": 119.5,"date": "2026-03-13T13:41:49.031Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "d6e2edd","commitDate": "2026-03-04T09:50:43Z","ms": 45.5,"date": "2026-03-13T13:41:49.034Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "d6e2edd","commitDate": "2026-03-04T09:50:43Z","ms": 66,"date": "2026-03-13T13:41:49.035Z"}
+{"name": "sort","version": "0.26.3","commit": "d6e2edd","commitDate": "2026-03-04T09:50:43Z","ms": 78,"date": "2026-03-13T13:41:49.036Z"}
+{"name": "load first cell","version": "0.26.3","commit": "7f996bb","commitDate": "2026-03-04T09:27:28Z","ms": 122.5,"date": "2026-03-13T13:42:06.288Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "7f996bb","commitDate": "2026-03-04T09:27:28Z","ms": 44.5,"date": "2026-03-13T13:42:06.290Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "7f996bb","commitDate": "2026-03-04T09:27:28Z","ms": 66.5,"date": "2026-03-13T13:42:06.290Z"}
+{"name": "sort","version": "0.26.3","commit": "7f996bb","commitDate": "2026-03-04T09:27:28Z","ms": 80,"date": "2026-03-13T13:42:06.291Z"}
+{"name": "load first cell","version": "0.26.3","commit": "b906d32","commitDate": "2026-03-03T21:26:33Z","ms": 124,"date": "2026-03-13T13:42:23.779Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "b906d32","commitDate": "2026-03-03T21:26:33Z","ms": 45.5,"date": "2026-03-13T13:42:23.780Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "b906d32","commitDate": "2026-03-03T21:26:33Z","ms": 66,"date": "2026-03-13T13:42:23.781Z"}
+{"name": "sort","version": "0.26.3","commit": "b906d32","commitDate": "2026-03-03T21:26:33Z","ms": 78.5,"date": "2026-03-13T13:42:23.781Z"}
+{"name": "load first cell","version": "0.26.3","commit": "9cd1309","commitDate": "2026-03-03T20:33:37Z","ms": 121,"date": "2026-03-13T13:42:40.962Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "9cd1309","commitDate": "2026-03-03T20:33:37Z","ms": 43,"date": "2026-03-13T13:42:40.964Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "9cd1309","commitDate": "2026-03-03T20:33:37Z","ms": 66.5,"date": "2026-03-13T13:42:40.965Z"}
+{"name": "sort","version": "0.26.3","commit": "9cd1309","commitDate": "2026-03-03T20:33:37Z","ms": 79,"date": "2026-03-13T13:42:40.966Z"}
+{"name": "load first cell","version": "0.26.3","commit": "6596b07","commitDate": "2026-03-03T13:43:47Z","ms": 121,"date": "2026-03-13T13:42:58.390Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "6596b07","commitDate": "2026-03-03T13:43:47Z","ms": 45.5,"date": "2026-03-13T13:42:58.392Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "6596b07","commitDate": "2026-03-03T13:43:47Z","ms": 66,"date": "2026-03-13T13:42:58.393Z"}
+{"name": "sort","version": "0.26.3","commit": "6596b07","commitDate": "2026-03-03T13:43:47Z","ms": 81,"date": "2026-03-13T13:42:58.394Z"}
+{"name": "load first cell","version": "0.26.3","commit": "6ab8470","commitDate": "2026-03-03T12:43:33Z","ms": 120.5,"date": "2026-03-13T13:43:15.810Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "6ab8470","commitDate": "2026-03-03T12:43:33Z","ms": 44.5,"date": "2026-03-13T13:43:15.811Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "6ab8470","commitDate": "2026-03-03T12:43:33Z","ms": 65,"date": "2026-03-13T13:43:15.811Z"}
+{"name": "sort","version": "0.26.3","commit": "6ab8470","commitDate": "2026-03-03T12:43:33Z","ms": 82,"date": "2026-03-13T13:43:15.812Z"}
+{"name": "load first cell","version": "0.26.3","commit": "8d4dbdc","commitDate": "2026-03-03T12:37:47Z","ms": 125,"date": "2026-03-13T13:43:32.801Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "8d4dbdc","commitDate": "2026-03-03T12:37:47Z","ms": 43.5,"date": "2026-03-13T13:43:32.802Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "8d4dbdc","commitDate": "2026-03-03T12:37:47Z","ms": 65.5,"date": "2026-03-13T13:43:32.803Z"}
+{"name": "sort","version": "0.26.3","commit": "8d4dbdc","commitDate": "2026-03-03T12:37:47Z","ms": 77.5,"date": "2026-03-13T13:43:32.803Z"}
+{"name": "load first cell","version": "0.26.3","commit": "a4c0251","commitDate": "2026-03-02T17:01:39Z","ms": 119.5,"date": "2026-03-13T13:43:50.635Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "a4c0251","commitDate": "2026-03-02T17:01:39Z","ms": 42,"date": "2026-03-13T13:43:50.637Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "a4c0251","commitDate": "2026-03-02T17:01:39Z","ms": 66,"date": "2026-03-13T13:43:50.638Z"}
+{"name": "sort","version": "0.26.3","commit": "a4c0251","commitDate": "2026-03-02T17:01:39Z","ms": 81,"date": "2026-03-13T13:43:50.638Z"}
+{"name": "load first cell","version": "0.26.3","commit": "6af70ed","commitDate": "2026-02-23T22:14:50Z","ms": 123,"date": "2026-03-13T13:44:07.668Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "6af70ed","commitDate": "2026-02-23T22:14:50Z","ms": 44,"date": "2026-03-13T13:44:07.669Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "6af70ed","commitDate": "2026-02-23T22:14:50Z","ms": 65.5,"date": "2026-03-13T13:44:07.670Z"}
+{"name": "sort","version": "0.26.3","commit": "6af70ed","commitDate": "2026-02-23T22:14:50Z","ms": 79,"date": "2026-03-13T13:44:07.670Z"}
+{"name": "load first cell","version": "0.26.3","commit": "1bbb9ef","commitDate": "2026-02-23T21:25:21Z","ms": 118.5,"date": "2026-03-13T13:44:24.929Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "1bbb9ef","commitDate": "2026-02-23T21:25:21Z","ms": 45,"date": "2026-03-13T13:44:24.930Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "1bbb9ef","commitDate": "2026-02-23T21:25:21Z","ms": 66,"date": "2026-03-13T13:44:24.930Z"}
+{"name": "sort","version": "0.26.3","commit": "1bbb9ef","commitDate": "2026-02-23T21:25:21Z","ms": 80.5,"date": "2026-03-13T13:44:24.931Z"}
+{"name": "load first cell","version": "0.26.3","commit": "8f3ddf3","commitDate": "2026-02-23T15:39:26Z","ms": 122.5,"date": "2026-03-13T13:44:42.189Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "8f3ddf3","commitDate": "2026-02-23T15:39:26Z","ms": 44,"date": "2026-03-13T13:44:42.191Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "8f3ddf3","commitDate": "2026-02-23T15:39:26Z","ms": 66,"date": "2026-03-13T13:44:42.192Z"}
+{"name": "sort","version": "0.26.3","commit": "8f3ddf3","commitDate": "2026-02-23T15:39:26Z","ms": 80,"date": "2026-03-13T13:44:42.192Z"}
+{"name": "load first cell","version": "0.26.3","commit": "e68cadc","commitDate": "2026-02-17T10:15:43Z","ms": 120.5,"date": "2026-03-13T13:45:08.627Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "e68cadc","commitDate": "2026-02-17T10:15:43Z","ms": 44.5,"date": "2026-03-13T13:45:08.628Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "e68cadc","commitDate": "2026-02-17T10:15:43Z","ms": 64.5,"date": "2026-03-13T13:45:08.628Z"}
+{"name": "sort","version": "0.26.3","commit": "e68cadc","commitDate": "2026-02-17T10:15:43Z","ms": 79,"date": "2026-03-13T13:45:08.629Z"}
+{"name": "load first cell","version": "0.26.3","commit": "b171cd3","commitDate": "2026-02-09T09:25:12Z","ms": 119,"date": "2026-03-13T13:45:26.120Z"}
+{"name": "scroll by one row","version": "0.26.3","commit": "b171cd3","commitDate": "2026-02-09T09:25:12Z","ms": 46,"date": "2026-03-13T13:45:26.121Z"}
+{"name": "scroll by 10 rows","version": "0.26.3","commit": "b171cd3","commitDate": "2026-02-09T09:25:12Z","ms": 67,"date": "2026-03-13T13:45:26.122Z"}
+{"name": "sort","version": "0.26.3","commit": "b171cd3","commitDate": "2026-02-09T09:25:12Z","ms": 80.5,"date": "2026-03-13T13:45:26.123Z"}
+{"name": "load first cell","version": "0.26.2","commit": "8b6cc78","commitDate": "2026-02-09T09:11:36Z","ms": 120.5,"date": "2026-03-13T13:45:43.633Z"}
+{"name": "scroll by one row","version": "0.26.2","commit": "8b6cc78","commitDate": "2026-02-09T09:11:36Z","ms": 45,"date": "2026-03-13T13:45:43.634Z"}
+{"name": "scroll by 10 rows","version": "0.26.2","commit": "8b6cc78","commitDate": "2026-02-09T09:11:36Z","ms": 67,"date": "2026-03-13T13:45:43.634Z"}
+{"name": "sort","version": "0.26.2","commit": "8b6cc78","commitDate": "2026-02-09T09:11:36Z","ms": 82.5,"date": "2026-03-13T13:45:43.635Z"}
+{"name": "load first cell","version": "0.26.2","commit": "6fe4251","commitDate": "2026-02-09T08:46:38Z","ms": 121,"date": "2026-03-13T13:46:00.982Z"}
+{"name": "scroll by one row","version": "0.26.2","commit": "6fe4251","commitDate": "2026-02-09T08:46:38Z","ms": 44.5,"date": "2026-03-13T13:46:00.984Z"}
+{"name": "scroll by 10 rows","version": "0.26.2","commit": "6fe4251","commitDate": "2026-02-09T08:46:38Z","ms": 65.5,"date": "2026-03-13T13:46:00.985Z"}
+{"name": "sort","version": "0.26.2","commit": "6fe4251","commitDate": "2026-02-09T08:46:38Z","ms": 80,"date": "2026-03-13T13:46:00.985Z"}
+{"name": "load first cell","version": "0.26.2","commit": "360ec0b","commitDate": "2026-02-06T21:51:34Z","ms": 121,"date": "2026-03-13T13:46:18.415Z"}
+{"name": "scroll by one row","version": "0.26.2","commit": "360ec0b","commitDate": "2026-02-06T21:51:34Z","ms": 46.5,"date": "2026-03-13T13:46:18.417Z"}
+{"name": "scroll by 10 rows","version": "0.26.2","commit": "360ec0b","commitDate": "2026-02-06T21:51:34Z","ms": 66,"date": "2026-03-13T13:46:18.418Z"}
+{"name": "sort","version": "0.26.2","commit": "360ec0b","commitDate": "2026-02-06T21:51:34Z","ms": 78,"date": "2026-03-13T13:46:18.419Z"}
+{"name": "load first cell","version": "0.26.1","commit": "2a37462","commitDate": "2026-02-06T21:38:16Z","ms": 120,"date": "2026-03-13T13:46:35.907Z"}
+{"name": "scroll by one row","version": "0.26.1","commit": "2a37462","commitDate": "2026-02-06T21:38:16Z","ms": 43.5,"date": "2026-03-13T13:46:35.909Z"}
+{"name": "scroll by 10 rows","version": "0.26.1","commit": "2a37462","commitDate": "2026-02-06T21:38:16Z","ms": 65,"date": "2026-03-13T13:46:35.910Z"}
+{"name": "sort","version": "0.26.1","commit": "2a37462","commitDate": "2026-02-06T21:38:16Z","ms": 67,"date": "2026-03-13T13:46:35.911Z"}
+{"name": "load first cell","version": "0.26.1","commit": "b026c42","commitDate": "2026-02-06T09:15:07Z","ms": 122,"date": "2026-03-13T13:46:53.633Z"}
+{"name": "scroll by one row","version": "0.26.1","commit": "b026c42","commitDate": "2026-02-06T09:15:07Z","ms": 45,"date": "2026-03-13T13:46:53.635Z"}
+{"name": "scroll by 10 rows","version": "0.26.1","commit": "b026c42","commitDate": "2026-02-06T09:15:07Z","ms": 67.5,"date": "2026-03-13T13:46:53.635Z"}
+{"name": "sort","version": "0.26.1","commit": "b026c42","commitDate": "2026-02-06T09:15:07Z","ms": 80,"date": "2026-03-13T13:46:53.635Z"}
+{"name": "load first cell","version": "0.26.0","commit": "76731ac","commitDate": "2026-02-06T08:46:07Z","ms": 120,"date": "2026-03-13T13:47:11.278Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "76731ac","commitDate": "2026-02-06T08:46:07Z","ms": 45.5,"date": "2026-03-13T13:47:11.281Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "76731ac","commitDate": "2026-02-06T08:46:07Z","ms": 65.5,"date": "2026-03-13T13:47:11.282Z"}
+{"name": "sort","version": "0.26.0","commit": "76731ac","commitDate": "2026-02-06T08:46:07Z","ms": 81.5,"date": "2026-03-13T13:47:11.283Z"}
+{"name": "load first cell","version": "0.26.0","commit": "ba88ff4","commitDate": "2026-02-06T07:49:31Z","ms": 117.5,"date": "2026-03-13T13:47:30.785Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "ba88ff4","commitDate": "2026-02-06T07:49:31Z","ms": 46,"date": "2026-03-13T13:47:30.787Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "ba88ff4","commitDate": "2026-02-06T07:49:31Z","ms": 65,"date": "2026-03-13T13:47:30.788Z"}
+{"name": "sort","version": "0.26.0","commit": "ba88ff4","commitDate": "2026-02-06T07:49:31Z","ms": 81,"date": "2026-03-13T13:47:30.789Z"}
+{"name": "load first cell","version": "0.26.0","commit": "128b3d9","commitDate": "2026-02-06T06:40:25Z","ms": 116.5,"date": "2026-03-13T13:47:47.937Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "128b3d9","commitDate": "2026-02-06T06:40:25Z","ms": 44,"date": "2026-03-13T13:47:47.938Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "128b3d9","commitDate": "2026-02-06T06:40:25Z","ms": 63.5,"date": "2026-03-13T13:47:47.939Z"}
+{"name": "sort","version": "0.26.0","commit": "128b3d9","commitDate": "2026-02-06T06:40:25Z","ms": 52,"date": "2026-03-13T13:47:47.939Z"}
+{"name": "load first cell","version": "0.26.0","commit": "f019657","commitDate": "2026-02-05T20:14:00Z","ms": 113.5,"date": "2026-03-13T13:48:04.966Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "f019657","commitDate": "2026-02-05T20:14:00Z","ms": 44.5,"date": "2026-03-13T13:48:04.967Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "f019657","commitDate": "2026-02-05T20:14:00Z","ms": 65,"date": "2026-03-13T13:48:04.967Z"}
+{"name": "sort","version": "0.26.0","commit": "f019657","commitDate": "2026-02-05T20:14:00Z","ms": 52.5,"date": "2026-03-13T13:48:04.968Z"}
+{"name": "load first cell","version": "0.26.0","commit": "3397085","commitDate": "2026-02-05T17:42:06Z","ms": 117.5,"date": "2026-03-13T13:48:22.068Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "3397085","commitDate": "2026-02-05T17:42:06Z","ms": 43.5,"date": "2026-03-13T13:48:22.070Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "3397085","commitDate": "2026-02-05T17:42:06Z","ms": 65,"date": "2026-03-13T13:48:22.070Z"}
+{"name": "sort","version": "0.26.0","commit": "3397085","commitDate": "2026-02-05T17:42:06Z","ms": 51.5,"date": "2026-03-13T13:48:22.071Z"}
+{"name": "load first cell","version": "0.26.0","commit": "6522b37","commitDate": "2026-02-05T14:51:29Z","ms": 117.5,"date": "2026-03-13T13:48:39.373Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "6522b37","commitDate": "2026-02-05T14:51:29Z","ms": 43.5,"date": "2026-03-13T13:48:39.375Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "6522b37","commitDate": "2026-02-05T14:51:29Z","ms": 64,"date": "2026-03-13T13:48:39.375Z"}
+{"name": "sort","version": "0.26.0","commit": "6522b37","commitDate": "2026-02-05T14:51:29Z","ms": 51.5,"date": "2026-03-13T13:48:39.375Z"}
+{"name": "load first cell","version": "0.26.0","commit": "b6a0995","commitDate": "2026-02-05T14:07:27Z","ms": 118,"date": "2026-03-13T13:48:56.481Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "b6a0995","commitDate": "2026-02-05T14:07:27Z","ms": 43,"date": "2026-03-13T13:48:56.484Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "b6a0995","commitDate": "2026-02-05T14:07:27Z","ms": 65,"date": "2026-03-13T13:48:56.485Z"}
+{"name": "sort","version": "0.26.0","commit": "b6a0995","commitDate": "2026-02-05T14:07:27Z","ms": 52.5,"date": "2026-03-13T13:48:56.486Z"}
+{"name": "load first cell","version": "0.26.0","commit": "9d8f0cb","commitDate": "2026-02-05T11:58:05Z","ms": 116.5,"date": "2026-03-13T13:49:13.581Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "9d8f0cb","commitDate": "2026-02-05T11:58:05Z","ms": 43.5,"date": "2026-03-13T13:49:13.582Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "9d8f0cb","commitDate": "2026-02-05T11:58:05Z","ms": 65.5,"date": "2026-03-13T13:49:13.582Z"}
+{"name": "sort","version": "0.26.0","commit": "9d8f0cb","commitDate": "2026-02-05T11:58:05Z","ms": 51,"date": "2026-03-13T13:49:13.583Z"}
+{"name": "load first cell","version": "0.26.0","commit": "5f44a55","commitDate": "2026-02-04T22:51:09Z","ms": 120.5,"date": "2026-03-13T13:49:30.621Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "5f44a55","commitDate": "2026-02-04T22:51:09Z","ms": 43.5,"date": "2026-03-13T13:49:30.623Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "5f44a55","commitDate": "2026-02-04T22:51:09Z","ms": 64.5,"date": "2026-03-13T13:49:30.623Z"}
+{"name": "sort","version": "0.26.0","commit": "5f44a55","commitDate": "2026-02-04T22:51:09Z","ms": 51.5,"date": "2026-03-13T13:49:30.624Z"}
+{"name": "load first cell","version": "0.26.0","commit": "538cb29","commitDate": "2026-02-03T17:40:16Z","ms": 115,"date": "2026-03-13T13:49:47.464Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "538cb29","commitDate": "2026-02-03T17:40:16Z","ms": 41.5,"date": "2026-03-13T13:49:47.465Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "538cb29","commitDate": "2026-02-03T17:40:16Z","ms": 65,"date": "2026-03-13T13:49:47.466Z"}
+{"name": "sort","version": "0.26.0","commit": "538cb29","commitDate": "2026-02-03T17:40:16Z","ms": 51.5,"date": "2026-03-13T13:49:47.466Z"}
+{"name": "load first cell","version": "0.26.0","commit": "b764cde","commitDate": "2026-02-03T13:05:23Z","ms": 111,"date": "2026-03-13T13:50:04.250Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "b764cde","commitDate": "2026-02-03T13:05:23Z","ms": 40.5,"date": "2026-03-13T13:50:04.251Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "b764cde","commitDate": "2026-02-03T13:05:23Z","ms": 64,"date": "2026-03-13T13:50:04.251Z"}
+{"name": "sort","version": "0.26.0","commit": "b764cde","commitDate": "2026-02-03T13:05:23Z","ms": 67.5,"date": "2026-03-13T13:50:04.252Z"}
+{"name": "load first cell","version": "0.26.0","commit": "0f26caf","commitDate": "2026-02-03T12:20:25Z","ms": 112,"date": "2026-03-13T13:50:21.359Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "0f26caf","commitDate": "2026-02-03T12:20:25Z","ms": 39.5,"date": "2026-03-13T13:50:21.360Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "0f26caf","commitDate": "2026-02-03T12:20:25Z","ms": 64,"date": "2026-03-13T13:50:21.360Z"}
+{"name": "sort","version": "0.26.0","commit": "0f26caf","commitDate": "2026-02-03T12:20:25Z","ms": 67,"date": "2026-03-13T13:50:21.360Z"}
+{"name": "load first cell","version": "0.26.0","commit": "c41fa49","commitDate": "2026-02-03T09:28:55Z","ms": 112.5,"date": "2026-03-13T13:50:38.548Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "c41fa49","commitDate": "2026-02-03T09:28:55Z","ms": 41,"date": "2026-03-13T13:50:38.549Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "c41fa49","commitDate": "2026-02-03T09:28:55Z","ms": 64,"date": "2026-03-13T13:50:38.549Z"}
+{"name": "sort","version": "0.26.0","commit": "c41fa49","commitDate": "2026-02-03T09:28:55Z","ms": 79,"date": "2026-03-13T13:50:38.549Z"}
+{"name": "load first cell","version": "0.26.0","commit": "75eda23","commitDate": "2026-02-03T01:08:35Z","ms": 111,"date": "2026-03-13T13:50:55.578Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "75eda23","commitDate": "2026-02-03T01:08:35Z","ms": 37.5,"date": "2026-03-13T13:50:55.579Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "75eda23","commitDate": "2026-02-03T01:08:35Z","ms": 63.5,"date": "2026-03-13T13:50:55.580Z"}
+{"name": "sort","version": "0.26.0","commit": "75eda23","commitDate": "2026-02-03T01:08:35Z","ms": 73,"date": "2026-03-13T13:50:55.580Z"}
+{"name": "load first cell","version": "0.26.0","commit": "5e3ed3b","commitDate": "2026-02-03T00:55:22Z","ms": 112,"date": "2026-03-13T13:51:12.964Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "5e3ed3b","commitDate": "2026-02-03T00:55:22Z","ms": 40,"date": "2026-03-13T13:51:12.965Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "5e3ed3b","commitDate": "2026-02-03T00:55:22Z","ms": 63,"date": "2026-03-13T13:51:12.965Z"}
+{"name": "sort","version": "0.26.0","commit": "5e3ed3b","commitDate": "2026-02-03T00:55:22Z","ms": 77,"date": "2026-03-13T13:51:12.966Z"}
+{"name": "load first cell","version": "0.26.0","commit": "40a4c07","commitDate": "2026-02-02T08:17:33Z","ms": 82,"date": "2026-03-13T13:51:28.870Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "40a4c07","commitDate": "2026-02-02T08:17:33Z","ms": 34.5,"date": "2026-03-13T13:51:28.871Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "40a4c07","commitDate": "2026-02-02T08:17:33Z","ms": 45.5,"date": "2026-03-13T13:51:28.871Z"}
+{"name": "sort","version": "0.26.0","commit": "40a4c07","commitDate": "2026-02-02T08:17:33Z","ms": 78,"date": "2026-03-13T13:51:28.871Z"}
+{"name": "load first cell","version": "0.26.0","commit": "752079c","commitDate": "2026-01-31T00:03:46Z","ms": 82,"date": "2026-03-13T13:51:44.818Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "752079c","commitDate": "2026-01-31T00:03:46Z","ms": 34,"date": "2026-03-13T13:51:44.820Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "752079c","commitDate": "2026-01-31T00:03:46Z","ms": 47.5,"date": "2026-03-13T13:51:44.821Z"}
+{"name": "sort","version": "0.26.0","commit": "752079c","commitDate": "2026-01-31T00:03:46Z","ms": 76.5,"date": "2026-03-13T13:51:44.822Z"}
+{"name": "load first cell","version": "0.26.0","commit": "5896647","commitDate": "2026-01-30T23:57:34Z","ms": 82,"date": "2026-03-13T13:52:00.993Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "5896647","commitDate": "2026-01-30T23:57:34Z","ms": 34,"date": "2026-03-13T13:52:00.995Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "5896647","commitDate": "2026-01-30T23:57:34Z","ms": 44.5,"date": "2026-03-13T13:52:00.996Z"}
+{"name": "sort","version": "0.26.0","commit": "5896647","commitDate": "2026-01-30T23:57:34Z","ms": 78.5,"date": "2026-03-13T13:52:00.997Z"}
+{"name": "load first cell","version": "0.26.0","commit": "6013eec","commitDate": "2026-01-30T17:25:01Z","ms": 82,"date": "2026-03-13T13:52:16.789Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "6013eec","commitDate": "2026-01-30T17:25:01Z","ms": 34.5,"date": "2026-03-13T13:52:16.790Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "6013eec","commitDate": "2026-01-30T17:25:01Z","ms": 46,"date": "2026-03-13T13:52:16.791Z"}
+{"name": "sort","version": "0.26.0","commit": "6013eec","commitDate": "2026-01-30T17:25:01Z","ms": 76,"date": "2026-03-13T13:52:16.791Z"}
+{"name": "load first cell","version": "0.26.0","commit": "587fba9","commitDate": "2026-01-30T17:07:07Z","ms": 82,"date": "2026-03-13T13:52:32.747Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "587fba9","commitDate": "2026-01-30T17:07:07Z","ms": 34.5,"date": "2026-03-13T13:52:32.748Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "587fba9","commitDate": "2026-01-30T17:07:07Z","ms": 46,"date": "2026-03-13T13:52:32.749Z"}
+{"name": "sort","version": "0.26.0","commit": "587fba9","commitDate": "2026-01-30T17:07:07Z","ms": 78,"date": "2026-03-13T13:52:32.749Z"}
+{"name": "load first cell","version": "0.26.0","commit": "21b7082","commitDate": "2026-01-30T15:44:48Z","ms": 81.5,"date": "2026-03-13T13:52:48.764Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "21b7082","commitDate": "2026-01-30T15:44:48Z","ms": 34,"date": "2026-03-13T13:52:48.765Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "21b7082","commitDate": "2026-01-30T15:44:48Z","ms": 47,"date": "2026-03-13T13:52:48.765Z"}
+{"name": "sort","version": "0.26.0","commit": "21b7082","commitDate": "2026-01-30T15:44:48Z","ms": 78,"date": "2026-03-13T13:52:48.766Z"}
+{"name": "load first cell","version": "0.26.0","commit": "fc1be43","commitDate": "2026-01-30T12:37:49Z","ms": 82,"date": "2026-03-13T13:53:04.767Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "fc1be43","commitDate": "2026-01-30T12:37:49Z","ms": 34.5,"date": "2026-03-13T13:53:04.769Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "fc1be43","commitDate": "2026-01-30T12:37:49Z","ms": 46.5,"date": "2026-03-13T13:53:04.770Z"}
+{"name": "sort","version": "0.26.0","commit": "fc1be43","commitDate": "2026-01-30T12:37:49Z","ms": 78.5,"date": "2026-03-13T13:53:04.770Z"}
+{"name": "load first cell","version": "0.26.0","commit": "13bb306","commitDate": "2026-01-30T08:50:42Z","ms": 82.5,"date": "2026-03-13T13:53:20.740Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "13bb306","commitDate": "2026-01-30T08:50:42Z","ms": 35,"date": "2026-03-13T13:53:20.741Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "13bb306","commitDate": "2026-01-30T08:50:42Z","ms": 46,"date": "2026-03-13T13:53:20.741Z"}
+{"name": "sort","version": "0.26.0","commit": "13bb306","commitDate": "2026-01-30T08:50:42Z","ms": 67,"date": "2026-03-13T13:53:20.741Z"}
+{"name": "load first cell","version": "0.26.0","commit": "7bb39a6","commitDate": "2026-01-26T13:24:38Z","ms": 83,"date": "2026-03-13T13:53:43.934Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "7bb39a6","commitDate": "2026-01-26T13:24:38Z","ms": 34,"date": "2026-03-13T13:53:43.936Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "7bb39a6","commitDate": "2026-01-26T13:24:38Z","ms": 45.5,"date": "2026-03-13T13:53:43.937Z"}
+{"name": "sort","version": "0.26.0","commit": "7bb39a6","commitDate": "2026-01-26T13:24:38Z","ms": 79.5,"date": "2026-03-13T13:53:43.937Z"}
+{"name": "load first cell","version": "0.26.0","commit": "363f57d","commitDate": "2026-01-22T10:01:24Z","ms": 82.5,"date": "2026-03-13T13:53:59.776Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "363f57d","commitDate": "2026-01-22T10:01:24Z","ms": 35,"date": "2026-03-13T13:53:59.777Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "363f57d","commitDate": "2026-01-22T10:01:24Z","ms": 46.5,"date": "2026-03-13T13:53:59.777Z"}
+{"name": "sort","version": "0.26.0","commit": "363f57d","commitDate": "2026-01-22T10:01:24Z","ms": 77,"date": "2026-03-13T13:53:59.778Z"}
+{"name": "load first cell","version": "0.26.0","commit": "143e6a0","commitDate": "2026-01-15T09:24:44Z","ms": 83.5,"date": "2026-03-13T13:54:15.934Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "143e6a0","commitDate": "2026-01-15T09:24:44Z","ms": 35,"date": "2026-03-13T13:54:15.936Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "143e6a0","commitDate": "2026-01-15T09:24:44Z","ms": 46,"date": "2026-03-13T13:54:15.937Z"}
+{"name": "sort","version": "0.26.0","commit": "143e6a0","commitDate": "2026-01-15T09:24:44Z","ms": 79.5,"date": "2026-03-13T13:54:15.938Z"}
+{"name": "load first cell","version": "0.26.0","commit": "2a8c774","commitDate": "2026-01-14T09:11:10Z","ms": 83,"date": "2026-03-13T13:54:31.928Z"}
+{"name": "scroll by one row","version": "0.26.0","commit": "2a8c774","commitDate": "2026-01-14T09:11:10Z","ms": 34.5,"date": "2026-03-13T13:54:31.930Z"}
+{"name": "scroll by 10 rows","version": "0.26.0","commit": "2a8c774","commitDate": "2026-01-14T09:11:10Z","ms": 46.5,"date": "2026-03-13T13:54:31.930Z"}
+{"name": "sort","version": "0.26.0","commit": "2a8c774","commitDate": "2026-01-14T09:11:10Z","ms": 79.5,"date": "2026-03-13T13:54:31.931Z"}
+{"name": "load first cell","version": "0.25.3","commit": "64ea147","commitDate": "2026-01-13T18:51:16Z","ms": 83,"date": "2026-03-13T13:54:48.055Z"}
+{"name": "scroll by one row","version": "0.25.3","commit": "64ea147","commitDate": "2026-01-13T18:51:16Z","ms": 34.5,"date": "2026-03-13T13:54:48.056Z"}
+{"name": "scroll by 10 rows","version": "0.25.3","commit": "64ea147","commitDate": "2026-01-13T18:51:16Z","ms": 45.5,"date": "2026-03-13T13:54:48.057Z"}
+{"name": "sort","version": "0.25.3","commit": "64ea147","commitDate": "2026-01-13T18:51:16Z","ms": 76,"date": "2026-03-13T13:54:48.057Z"}
+{"name": "load first cell","version": "0.25.2","commit": "23b3de3","commitDate": "2026-01-13T18:43:14Z","ms": 83,"date": "2026-03-13T13:55:04.085Z"}
+{"name": "scroll by one row","version": "0.25.2","commit": "23b3de3","commitDate": "2026-01-13T18:43:14Z","ms": 35,"date": "2026-03-13T13:55:04.086Z"}
+{"name": "scroll by 10 rows","version": "0.25.2","commit": "23b3de3","commitDate": "2026-01-13T18:43:14Z","ms": 46,"date": "2026-03-13T13:55:04.087Z"}
+{"name": "sort","version": "0.25.2","commit": "23b3de3","commitDate": "2026-01-13T18:43:14Z","ms": 79.5,"date": "2026-03-13T13:55:04.087Z"}
+{"name": "load first cell","version": "0.25.2","commit": "5090fe4","commitDate": "2026-01-13T18:37:47Z","ms": 84,"date": "2026-03-13T13:55:22.377Z"}
+{"name": "scroll by one row","version": "0.25.2","commit": "5090fe4","commitDate": "2026-01-13T18:37:47Z","ms": 35,"date": "2026-03-13T13:55:22.378Z"}
+{"name": "scroll by 10 rows","version": "0.25.2","commit": "5090fe4","commitDate": "2026-01-13T18:37:47Z","ms": 46,"date": "2026-03-13T13:55:22.378Z"}
+{"name": "sort","version": "0.25.2","commit": "5090fe4","commitDate": "2026-01-13T18:37:47Z","ms": 76,"date": "2026-03-13T13:55:22.379Z"}
+{"name": "load first cell","version": "0.25.2","commit": "3bfb96d","commitDate": "2026-01-12T21:06:35Z","ms": 83,"date": "2026-03-13T13:55:38.759Z"}
+{"name": "scroll by one row","version": "0.25.2","commit": "3bfb96d","commitDate": "2026-01-12T21:06:35Z","ms": 34,"date": "2026-03-13T13:55:38.761Z"}
+{"name": "scroll by 10 rows","version": "0.25.2","commit": "3bfb96d","commitDate": "2026-01-12T21:06:35Z","ms": 45.5,"date": "2026-03-13T13:55:38.762Z"}
+{"name": "sort","version": "0.25.2","commit": "3bfb96d","commitDate": "2026-01-12T21:06:35Z","ms": 78.5,"date": "2026-03-13T13:55:38.762Z"}
+{"name": "load first cell","version": "0.25.1","commit": "b24b3b2","commitDate": "2026-01-12T21:01:47Z","ms": 83,"date": "2026-03-13T13:55:54.886Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "b24b3b2","commitDate": "2026-01-12T21:01:47Z","ms": 35,"date": "2026-03-13T13:55:54.887Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "b24b3b2","commitDate": "2026-01-12T21:01:47Z","ms": 45,"date": "2026-03-13T13:55:54.888Z"}
+{"name": "sort","version": "0.25.1","commit": "b24b3b2","commitDate": "2026-01-12T21:01:47Z","ms": 78.5,"date": "2026-03-13T13:55:54.889Z"}
+{"name": "load first cell","version": "0.25.1","commit": "42b041d","commitDate": "2026-01-09T14:33:47Z","ms": 83,"date": "2026-03-13T13:56:10.784Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "42b041d","commitDate": "2026-01-09T14:33:47Z","ms": 34,"date": "2026-03-13T13:56:10.785Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "42b041d","commitDate": "2026-01-09T14:33:47Z","ms": 46,"date": "2026-03-13T13:56:10.786Z"}
+{"name": "sort","version": "0.25.1","commit": "42b041d","commitDate": "2026-01-09T14:33:47Z","ms": 78.5,"date": "2026-03-13T13:56:10.786Z"}
+{"name": "load first cell","version": "0.25.1","commit": "a7031ea","commitDate": "2026-01-08T21:48:14Z","ms": 85,"date": "2026-03-13T13:56:26.870Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "a7031ea","commitDate": "2026-01-08T21:48:14Z","ms": 35,"date": "2026-03-13T13:56:26.872Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "a7031ea","commitDate": "2026-01-08T21:48:14Z","ms": 46,"date": "2026-03-13T13:56:26.872Z"}
+{"name": "sort","version": "0.25.1","commit": "a7031ea","commitDate": "2026-01-08T21:48:14Z","ms": 78.5,"date": "2026-03-13T13:56:26.872Z"}
+{"name": "load first cell","version": "0.25.1","commit": "be4a9ab","commitDate": "2026-01-08T21:34:18Z","ms": 84,"date": "2026-03-13T13:56:42.907Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "be4a9ab","commitDate": "2026-01-08T21:34:18Z","ms": 35,"date": "2026-03-13T13:56:42.909Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "be4a9ab","commitDate": "2026-01-08T21:34:18Z","ms": 46.5,"date": "2026-03-13T13:56:42.910Z"}
+{"name": "sort","version": "0.25.1","commit": "be4a9ab","commitDate": "2026-01-08T21:34:18Z","ms": 79.5,"date": "2026-03-13T13:56:42.910Z"}
+{"name": "load first cell","version": "0.25.1","commit": "80a20d9","commitDate": "2026-01-08T21:29:26Z","ms": 84,"date": "2026-03-13T13:56:59.131Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "80a20d9","commitDate": "2026-01-08T21:29:26Z","ms": 34,"date": "2026-03-13T13:56:59.131Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "80a20d9","commitDate": "2026-01-08T21:29:26Z","ms": 45,"date": "2026-03-13T13:56:59.132Z"}
+{"name": "sort","version": "0.25.1","commit": "80a20d9","commitDate": "2026-01-08T21:29:26Z","ms": 81,"date": "2026-03-13T13:56:59.132Z"}
+{"name": "load first cell","version": "0.25.1","commit": "4c05ce2","commitDate": "2026-01-08T21:07:02Z","ms": 82.5,"date": "2026-03-13T13:57:15.242Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "4c05ce2","commitDate": "2026-01-08T21:07:02Z","ms": 35,"date": "2026-03-13T13:57:15.243Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "4c05ce2","commitDate": "2026-01-08T21:07:02Z","ms": 45,"date": "2026-03-13T13:57:15.243Z"}
+{"name": "sort","version": "0.25.1","commit": "4c05ce2","commitDate": "2026-01-08T21:07:02Z","ms": 79.5,"date": "2026-03-13T13:57:15.244Z"}
+{"name": "load first cell","version": "0.25.1","commit": "439d4e6","commitDate": "2026-01-08T20:05:29Z","ms": 90,"date": "2026-03-13T13:57:31.857Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "439d4e6","commitDate": "2026-01-08T20:05:29Z","ms": 36,"date": "2026-03-13T13:57:31.858Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "439d4e6","commitDate": "2026-01-08T20:05:29Z","ms": 52,"date": "2026-03-13T13:57:31.859Z"}
+{"name": "sort","version": "0.25.1","commit": "439d4e6","commitDate": "2026-01-08T20:05:29Z","ms": 84,"date": "2026-03-13T13:57:31.859Z"}
+{"name": "load first cell","version": "0.25.1","commit": "1b99f85","commitDate": "2026-01-08T19:16:26Z","ms": 88.5,"date": "2026-03-13T13:57:48.183Z"}
+{"name": "scroll by one row","version": "0.25.1","commit": "1b99f85","commitDate": "2026-01-08T19:16:26Z","ms": 36.5,"date": "2026-03-13T13:57:48.185Z"}
+{"name": "scroll by 10 rows","version": "0.25.1","commit": "1b99f85","commitDate": "2026-01-08T19:16:26Z","ms": 50,"date": "2026-03-13T13:57:48.186Z"}
+{"name": "sort","version": "0.25.1","commit": "1b99f85","commitDate": "2026-01-08T19:16:26Z","ms": 81,"date": "2026-03-13T13:57:48.186Z"}
+{"name": "load first cell","version": "0.25.0","commit": "421b450","commitDate": "2026-01-08T13:43:32Z","ms": 88.5,"date": "2026-03-13T13:58:04.383Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "421b450","commitDate": "2026-01-08T13:43:32Z","ms": 36,"date": "2026-03-13T13:58:04.384Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "421b450","commitDate": "2026-01-08T13:43:32Z","ms": 51,"date": "2026-03-13T13:58:04.384Z"}
+{"name": "sort","version": "0.25.0","commit": "421b450","commitDate": "2026-01-08T13:43:32Z","ms": 80,"date": "2026-03-13T13:58:04.385Z"}
+{"name": "load first cell","version": "0.25.0","commit": "9afe369","commitDate": "2026-01-08T13:18:57Z","ms": 86,"date": "2026-03-13T13:58:22.612Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "9afe369","commitDate": "2026-01-08T13:18:57Z","ms": 37,"date": "2026-03-13T13:58:22.614Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "9afe369","commitDate": "2026-01-08T13:18:57Z","ms": 50.5,"date": "2026-03-13T13:58:22.614Z"}
+{"name": "sort","version": "0.25.0","commit": "9afe369","commitDate": "2026-01-08T13:18:57Z","ms": 83,"date": "2026-03-13T13:58:22.615Z"}
+{"name": "load first cell","version": "0.25.0","commit": "4ccfa3b","commitDate": "2026-01-08T11:00:20Z","ms": 89,"date": "2026-03-13T13:58:39.407Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "4ccfa3b","commitDate": "2026-01-08T11:00:20Z","ms": 36,"date": "2026-03-13T13:58:39.409Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "4ccfa3b","commitDate": "2026-01-08T11:00:20Z","ms": 50.5,"date": "2026-03-13T13:58:39.410Z"}
+{"name": "sort","version": "0.25.0","commit": "4ccfa3b","commitDate": "2026-01-08T11:00:20Z","ms": 81,"date": "2026-03-13T13:58:39.411Z"}
+{"name": "load first cell","version": "0.25.0","commit": "b31f2c2","commitDate": "2026-01-08T09:31:19Z","ms": 88,"date": "2026-03-13T13:58:55.702Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "b31f2c2","commitDate": "2026-01-08T09:31:19Z","ms": 38.5,"date": "2026-03-13T13:58:55.703Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "b31f2c2","commitDate": "2026-01-08T09:31:19Z","ms": 50,"date": "2026-03-13T13:58:55.704Z"}
+{"name": "sort","version": "0.25.0","commit": "b31f2c2","commitDate": "2026-01-08T09:31:19Z","ms": 81.5,"date": "2026-03-13T13:58:55.704Z"}
+{"name": "load first cell","version": "0.25.0","commit": "71c6bcf","commitDate": "2026-01-02T16:27:33Z","ms": 88,"date": "2026-03-13T13:59:12.173Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "71c6bcf","commitDate": "2026-01-02T16:27:33Z","ms": 37,"date": "2026-03-13T13:59:12.175Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "71c6bcf","commitDate": "2026-01-02T16:27:33Z","ms": 49,"date": "2026-03-13T13:59:12.176Z"}
+{"name": "sort","version": "0.25.0","commit": "71c6bcf","commitDate": "2026-01-02T16:27:33Z","ms": 81.5,"date": "2026-03-13T13:59:12.177Z"}
+{"name": "load first cell","version": "0.25.0","commit": "bc41e71","commitDate": "2026-01-02T14:27:49Z","ms": 95,"date": "2026-03-13T13:59:28.741Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "bc41e71","commitDate": "2026-01-02T14:27:49Z","ms": 36.5,"date": "2026-03-13T13:59:28.742Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "bc41e71","commitDate": "2026-01-02T14:27:49Z","ms": 50.5,"date": "2026-03-13T13:59:28.742Z"}
+{"name": "sort","version": "0.25.0","commit": "bc41e71","commitDate": "2026-01-02T14:27:49Z","ms": 79,"date": "2026-03-13T13:59:28.743Z"}
+{"name": "load first cell","version": "0.25.0","commit": "972f110","commitDate": "2026-01-01T14:33:29Z","ms": 88.5,"date": "2026-03-13T13:59:45.091Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "972f110","commitDate": "2026-01-01T14:33:29Z","ms": 37.5,"date": "2026-03-13T13:59:45.092Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "972f110","commitDate": "2026-01-01T14:33:29Z","ms": 51.5,"date": "2026-03-13T13:59:45.093Z"}
+{"name": "sort","version": "0.25.0","commit": "972f110","commitDate": "2026-01-01T14:33:29Z","ms": 52,"date": "2026-03-13T13:59:45.093Z"}
+{"name": "load first cell","version": "0.25.0","commit": "d96842c","commitDate": "2026-01-01T13:19:26Z","ms": 86.5,"date": "2026-03-13T14:00:01.264Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "d96842c","commitDate": "2026-01-01T13:19:26Z","ms": 37,"date": "2026-03-13T14:00:01.264Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "d96842c","commitDate": "2026-01-01T13:19:26Z","ms": 52.5,"date": "2026-03-13T14:00:01.265Z"}
+{"name": "sort","version": "0.25.0","commit": "d96842c","commitDate": "2026-01-01T13:19:26Z","ms": 52.5,"date": "2026-03-13T14:00:01.265Z"}
+{"name": "load first cell","version": "0.25.0","commit": "08bcf94","commitDate": "2025-12-22T15:06:57Z","ms": 84.5,"date": "2026-03-13T14:00:22.486Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "08bcf94","commitDate": "2025-12-22T15:06:57Z","ms": 36.5,"date": "2026-03-13T14:00:22.488Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "08bcf94","commitDate": "2025-12-22T15:06:57Z","ms": 51,"date": "2026-03-13T14:00:22.489Z"}
+{"name": "sort","version": "0.25.0","commit": "08bcf94","commitDate": "2025-12-22T15:06:57Z","ms": 52,"date": "2026-03-13T14:00:22.490Z"}
+{"name": "load first cell","version": "0.25.0","commit": "1e27495","commitDate": "2025-12-22T14:29:33Z","ms": 83,"date": "2026-03-13T14:00:38.655Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "1e27495","commitDate": "2025-12-22T14:29:33Z","ms": 37.5,"date": "2026-03-13T14:00:38.658Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "1e27495","commitDate": "2025-12-22T14:29:33Z","ms": 51,"date": "2026-03-13T14:00:38.659Z"}
+{"name": "sort","version": "0.25.0","commit": "1e27495","commitDate": "2025-12-22T14:29:33Z","ms": 53,"date": "2026-03-13T14:00:38.660Z"}
+{"name": "load first cell","version": "0.25.0","commit": "0caa42b","commitDate": "2025-12-22T13:41:06Z","ms": 82.5,"date": "2026-03-13T14:00:54.844Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "0caa42b","commitDate": "2025-12-22T13:41:06Z","ms": 39,"date": "2026-03-13T14:00:54.845Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "0caa42b","commitDate": "2025-12-22T13:41:06Z","ms": 51,"date": "2026-03-13T14:00:54.846Z"}
+{"name": "sort","version": "0.25.0","commit": "0caa42b","commitDate": "2025-12-22T13:41:06Z","ms": 51,"date": "2026-03-13T14:00:54.846Z"}
+{"name": "load first cell","version": "0.25.0","commit": "dd2b16b","commitDate": "2025-12-22T13:38:57Z","ms": 86,"date": "2026-03-13T14:01:11.224Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "dd2b16b","commitDate": "2025-12-22T13:38:57Z","ms": 38.5,"date": "2026-03-13T14:01:11.225Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "dd2b16b","commitDate": "2025-12-22T13:38:57Z","ms": 52.5,"date": "2026-03-13T14:01:11.226Z"}
+{"name": "sort","version": "0.25.0","commit": "dd2b16b","commitDate": "2025-12-22T13:38:57Z","ms": 51,"date": "2026-03-13T14:01:11.226Z"}
+{"name": "load first cell","version": "0.25.0","commit": "978d1ad","commitDate": "2025-12-19T14:37:41Z","ms": 56,"date": "2026-03-13T14:01:26.490Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "978d1ad","commitDate": "2025-12-19T14:37:41Z","ms": 34,"date": "2026-03-13T14:01:26.491Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "978d1ad","commitDate": "2025-12-19T14:37:41Z","ms": 46.5,"date": "2026-03-13T14:01:26.491Z"}
+{"name": "sort","version": "0.25.0","commit": "978d1ad","commitDate": "2025-12-19T14:37:41Z","ms": 52,"date": "2026-03-13T14:01:26.492Z"}
+{"name": "load first cell","version": "0.25.0","commit": "953f219","commitDate": "2025-12-19T14:30:44Z","ms": 53,"date": "2026-03-13T14:01:42.111Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "953f219","commitDate": "2025-12-19T14:30:44Z","ms": 34.5,"date": "2026-03-13T14:01:42.112Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "953f219","commitDate": "2025-12-19T14:30:44Z","ms": 46.5,"date": "2026-03-13T14:01:42.112Z"}
+{"name": "sort","version": "0.25.0","commit": "953f219","commitDate": "2025-12-19T14:30:44Z","ms": 52.5,"date": "2026-03-13T14:01:42.113Z"}
+{"name": "load first cell","version": "0.25.0","commit": "a6860ab","commitDate": "2025-12-18T21:00:35Z","ms": 53,"date": "2026-03-13T14:01:57.582Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "a6860ab","commitDate": "2025-12-18T21:00:35Z","ms": 33.5,"date": "2026-03-13T14:01:57.584Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "a6860ab","commitDate": "2025-12-18T21:00:35Z","ms": 46.5,"date": "2026-03-13T14:01:57.585Z"}
+{"name": "sort","version": "0.25.0","commit": "a6860ab","commitDate": "2025-12-18T21:00:35Z","ms": 52,"date": "2026-03-13T14:01:57.586Z"}
+{"name": "load first cell","version": "0.25.0","commit": "b812767","commitDate": "2025-12-18T17:48:39Z","ms": 54,"date": "2026-03-13T14:02:13.215Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "b812767","commitDate": "2025-12-18T17:48:39Z","ms": 33.5,"date": "2026-03-13T14:02:13.216Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "b812767","commitDate": "2025-12-18T17:48:39Z","ms": 46.5,"date": "2026-03-13T14:02:13.217Z"}
+{"name": "sort","version": "0.25.0","commit": "b812767","commitDate": "2025-12-18T17:48:39Z","ms": 53.5,"date": "2026-03-13T14:02:13.217Z"}
+{"name": "load first cell","version": "0.25.0","commit": "42a2c69","commitDate": "2025-12-18T14:43:46Z","ms": 66,"date": "2026-03-13T14:02:29.190Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "42a2c69","commitDate": "2025-12-18T14:43:46Z","ms": 34.5,"date": "2026-03-13T14:02:29.191Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "42a2c69","commitDate": "2025-12-18T14:43:46Z","ms": 48.5,"date": "2026-03-13T14:02:29.192Z"}
+{"name": "sort","version": "0.25.0","commit": "42a2c69","commitDate": "2025-12-18T14:43:46Z","ms": 56.5,"date": "2026-03-13T14:02:29.192Z"}
+{"name": "load first cell","version": "0.25.0","commit": "fed1be7","commitDate": "2025-12-18T11:49:20Z","ms": 65,"date": "2026-03-13T14:02:44.654Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "fed1be7","commitDate": "2025-12-18T11:49:20Z","ms": 33,"date": "2026-03-13T14:02:44.657Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "fed1be7","commitDate": "2025-12-18T11:49:20Z","ms": 48.5,"date": "2026-03-13T14:02:44.659Z"}
+{"name": "sort","version": "0.25.0","commit": "fed1be7","commitDate": "2025-12-18T11:49:20Z","ms": 51.5,"date": "2026-03-13T14:02:44.660Z"}
+{"name": "load first cell","version": "0.25.0","commit": "60566af","commitDate": "2025-12-18T10:36:02Z","ms": 66,"date": "2026-03-13T14:03:03.687Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "60566af","commitDate": "2025-12-18T10:36:02Z","ms": 34,"date": "2026-03-13T14:03:03.688Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "60566af","commitDate": "2025-12-18T10:36:02Z","ms": 47,"date": "2026-03-13T14:03:03.689Z"}
+{"name": "sort","version": "0.25.0","commit": "60566af","commitDate": "2025-12-18T10:36:02Z","ms": 51.5,"date": "2026-03-13T14:03:03.689Z"}
+{"name": "load first cell","version": "0.25.0","commit": "6fd8751","commitDate": "2025-12-16T16:32:53Z","ms": 64,"date": "2026-03-13T14:03:19.260Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "6fd8751","commitDate": "2025-12-16T16:32:53Z","ms": 33.5,"date": "2026-03-13T14:03:19.262Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "6fd8751","commitDate": "2025-12-16T16:32:53Z","ms": 48,"date": "2026-03-13T14:03:19.263Z"}
+{"name": "sort","version": "0.25.0","commit": "6fd8751","commitDate": "2025-12-16T16:32:53Z","ms": 52.5,"date": "2026-03-13T14:03:19.263Z"}
+{"name": "load first cell","version": "0.25.0","commit": "2b07a3c","commitDate": "2025-12-16T14:54:49Z","ms": 65,"date": "2026-03-13T14:03:38.552Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "2b07a3c","commitDate": "2025-12-16T14:54:49Z","ms": 34,"date": "2026-03-13T14:03:38.554Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "2b07a3c","commitDate": "2025-12-16T14:54:49Z","ms": 46.5,"date": "2026-03-13T14:03:38.555Z"}
+{"name": "sort","version": "0.25.0","commit": "2b07a3c","commitDate": "2025-12-16T14:54:49Z","ms": 53,"date": "2026-03-13T14:03:38.556Z"}
+{"name": "load first cell","version": "0.25.0","commit": "7b96fce","commitDate": "2025-12-09T20:27:05Z","ms": 65.5,"date": "2026-03-13T14:03:54.213Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "7b96fce","commitDate": "2025-12-09T20:27:05Z","ms": 34,"date": "2026-03-13T14:03:54.216Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "7b96fce","commitDate": "2025-12-09T20:27:05Z","ms": 46.5,"date": "2026-03-13T14:03:54.217Z"}
+{"name": "sort","version": "0.25.0","commit": "7b96fce","commitDate": "2025-12-09T20:27:05Z","ms": 51,"date": "2026-03-13T14:03:54.218Z"}
+{"name": "load first cell","version": "0.25.0","commit": "4f58888","commitDate": "2025-12-09T20:18:32Z","ms": 65,"date": "2026-03-13T14:04:09.823Z"}
+{"name": "scroll by one row","version": "0.25.0","commit": "4f58888","commitDate": "2025-12-09T20:18:32Z","ms": 33.5,"date": "2026-03-13T14:04:09.824Z"}
+{"name": "scroll by 10 rows","version": "0.25.0","commit": "4f58888","commitDate": "2025-12-09T20:18:32Z","ms": 47,"date": "2026-03-13T14:04:09.825Z"}
+{"name": "sort","version": "0.25.0","commit": "4f58888","commitDate": "2025-12-09T20:18:32Z","ms": 55.5,"date": "2026-03-13T14:04:09.825Z"}
+{"name": "load first cell","version": "0.24.1","commit": "1ded92a","commitDate": "2025-12-08T23:27:56Z","ms": 65.5,"date": "2026-03-13T14:04:29.753Z"}
+{"name": "scroll by one row","version": "0.24.1","commit": "1ded92a","commitDate": "2025-12-08T23:27:56Z","ms": 33.5,"date": "2026-03-13T14:04:29.757Z"}
+{"name": "scroll by 10 rows","version": "0.24.1","commit": "1ded92a","commitDate": "2025-12-08T23:27:56Z","ms": 46,"date": "2026-03-13T14:04:29.758Z"}
+{"name": "sort","version": "0.24.1","commit": "1ded92a","commitDate": "2025-12-08T23:27:56Z","ms": 54.5,"date": "2026-03-13T14:04:29.759Z"}
+{"name": "load first cell","version": "0.24.1","commit": "4267352","commitDate": "2025-12-02T10:51:02Z","ms": 64.5,"date": "2026-03-13T14:04:45.314Z"}
+{"name": "scroll by one row","version": "0.24.1","commit": "4267352","commitDate": "2025-12-02T10:51:02Z","ms": 34,"date": "2026-03-13T14:04:45.315Z"}
+{"name": "scroll by 10 rows","version": "0.24.1","commit": "4267352","commitDate": "2025-12-02T10:51:02Z","ms": 46.5,"date": "2026-03-13T14:04:45.316Z"}
+{"name": "sort","version": "0.24.1","commit": "4267352","commitDate": "2025-12-02T10:51:02Z","ms": 53,"date": "2026-03-13T14:04:45.317Z"}
+{"name": "load first cell","version": "0.24.1","commit": "3545a53","commitDate": "2025-12-02T10:10:37Z","ms": 65,"date": "2026-03-13T14:05:01.137Z"}
+{"name": "scroll by one row","version": "0.24.1","commit": "3545a53","commitDate": "2025-12-02T10:10:37Z","ms": 33.5,"date": "2026-03-13T14:05:01.138Z"}
+{"name": "scroll by 10 rows","version": "0.24.1","commit": "3545a53","commitDate": "2025-12-02T10:10:37Z","ms": 48,"date": "2026-03-13T14:05:01.138Z"}
+{"name": "sort","version": "0.24.1","commit": "3545a53","commitDate": "2025-12-02T10:10:37Z","ms": 56,"date": "2026-03-13T14:05:01.139Z"}
+{"name": "load first cell","version": "0.24.1","commit": "3e39654","commitDate": "2025-12-01T12:55:19Z","ms": 67,"date": "2026-03-13T14:05:16.881Z"}
+{"name": "scroll by one row","version": "0.24.1","commit": "3e39654","commitDate": "2025-12-01T12:55:19Z","ms": 33,"date": "2026-03-13T14:05:16.883Z"}
+{"name": "scroll by 10 rows","version": "0.24.1","commit": "3e39654","commitDate": "2025-12-01T12:55:19Z","ms": 48,"date": "2026-03-13T14:05:16.883Z"}
+{"name": "sort","version": "0.24.1","commit": "3e39654","commitDate": "2025-12-01T12:55:19Z","ms": 67,"date": "2026-03-13T14:05:16.883Z"}
+{"name": "load first cell","version": "0.24.0","commit": "29c1e91","commitDate": "2025-12-01T12:51:35Z","ms": 67,"date": "2026-03-13T14:05:33.556Z"}
+{"name": "scroll by one row","version": "0.24.0","commit": "29c1e91","commitDate": "2025-12-01T12:51:35Z","ms": 33,"date": "2026-03-13T14:05:33.558Z"}
+{"name": "scroll by 10 rows","version": "0.24.0","commit": "29c1e91","commitDate": "2025-12-01T12:51:35Z","ms": 47,"date": "2026-03-13T14:05:33.559Z"}
+{"name": "sort","version": "0.24.0","commit": "29c1e91","commitDate": "2025-12-01T12:51:35Z","ms": 51.5,"date": "2026-03-13T14:05:33.559Z"}
+{"name": "load first cell","version": "0.24.0","commit": "7d522ad","commitDate": "2025-11-29T09:45:36Z","ms": 64.5,"date": "2026-03-13T14:05:49.178Z"}
+{"name": "scroll by one row","version": "0.24.0","commit": "7d522ad","commitDate": "2025-11-29T09:45:36Z","ms": 34,"date": "2026-03-13T14:05:49.179Z"}
+{"name": "scroll by 10 rows","version": "0.24.0","commit": "7d522ad","commitDate": "2025-11-29T09:45:36Z","ms": 47.5,"date": "2026-03-13T14:05:49.180Z"}
+{"name": "sort","version": "0.24.0","commit": "7d522ad","commitDate": "2025-11-29T09:45:36Z","ms": 51.5,"date": "2026-03-13T14:05:49.181Z"}
+{"name": "load first cell","version": "0.23.0","commit": "dd7107f","commitDate": "2025-11-29T09:40:36Z","ms": 65,"date": "2026-03-13T14:06:04.782Z"}
+{"name": "scroll by one row","version": "0.23.0","commit": "dd7107f","commitDate": "2025-11-29T09:40:36Z","ms": 34,"date": "2026-03-13T14:06:04.783Z"}
+{"name": "scroll by 10 rows","version": "0.23.0","commit": "dd7107f","commitDate": "2025-11-29T09:40:36Z","ms": 48,"date": "2026-03-13T14:06:04.784Z"}
+{"name": "sort","version": "0.23.0","commit": "dd7107f","commitDate": "2025-11-29T09:40:36Z","ms": 52.5,"date": "2026-03-13T14:06:04.784Z"}
